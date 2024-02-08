@@ -1,0 +1,27 @@
+
+.crd-div{
+    padding-bottom: 30px;
+    /* background-color: whitesmoke; */
+}
+.crd-tit{
+    text-align: center;
+    padding-top: 30px;
+}
+.crd-tit h2{
+    font-weight:300;
+    margin-top: 8px;
+    
+}
+.icn{
+    text-align: center;
+    font-size: 30px;
+    color: #7B50D5;
+    padding: 10px;
+}
+.crd-cont{
+    text-align: center;
+}
+.data-crd{
+    padding-top:10px;
+    
+}

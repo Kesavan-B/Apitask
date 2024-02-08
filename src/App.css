@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-frm{
+    margin: 0px auto;
+    text-align: center;
+}
+.ato-sel{
+    margin-top: 35px;
+}
+.item-img{
+    width: 100%;
+    border-radius: 15px;
+    max-width: 85%;
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.variant-crds{
+    display: flex;
+}
+
+.back-img {
+  background: linear-gradient(0deg, rgb(123, 80, 213), rgba(255, 0, 150, 0.3)), url( ./assests/images/conimg.jpg);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background-color: #7B50D5;
+  padding-bottom: 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 100px;
+    height: 45px;
+    position: relative;
+  }
+  
+  .loader:before,
+  .loader:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #000;
+    box-shadow: 0 0 0 50px;
+    clip-path: polygon(-50px -20px,10% -12px,20% 0,calc(50% - 15px) 0,calc(50% - 10px) -20px,calc(50% - 8px) -15px,calc(50% + 8px) -15px,calc(50% + 10px) -20px,calc(50% + 15px) 0,80% 0,90% -12px,calc(100% + 50px) -20px,100% 80%,calc(100% + 10px) calc(100% + 10px),60% 100%,50% calc(100% + 15px),40% 100%,-10px calc(100% + 10px),0 80%);
+  }
+  
+  .loader:after {
+    animation: l9 1s infinite;
+    transform: perspective(300px) translateZ(0px)
+  }
+  
+  @keyframes l9 {
+    to {
+      transform: perspective(300px) translateZ(100px);
+      opacity: 0
+    }
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5); /* Transparent white overlay */
+    backdrop-filter: blur(5px); /* Apply blur to the content behind the overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blurry-content {
+    position: absolute;
+    z-index: 1; /* Place the content on top of the overlay */
+  }
+  
+  .loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    z-index: 2; /* Place the loader above the content */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

@@ -1,0 +1,18 @@
+.con-img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px
+}
+
+.cont-para{
+    margin-top: 8px;
+    color: gray;
+    text-align: justify;
+}
+.content h5{
+    margin-top: 8px;
+    color: grey;
+}
+.content{
+    padding: 8px;
+}

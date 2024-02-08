@@ -1,0 +1,26 @@
+.fields{
+    margin-top: 25px;
+}
+.bt-sub{
+    margin-top: 10px;
+}
+.title{
+    text-align: left;
+}
+.main-frm {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    background: lightyellow;
+    padding: 18px;
+    border-radius: 18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.Frms{
+    padding-top: 10px;
+}
+.aler{
+    color: red;
+    float: left;
+}
